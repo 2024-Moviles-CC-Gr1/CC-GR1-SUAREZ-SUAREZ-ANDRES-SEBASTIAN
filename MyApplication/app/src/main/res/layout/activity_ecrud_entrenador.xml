@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_sqlite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ECrudEntrenador">
+
+    <EditText
+        android:id="@+id/input_nombre"
+        android:layout_width="260dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ingrese Nombre"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_bdd"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crear_bdd"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/btn_crear_bdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <EditText
+        android:id="@+id/input_descripcion"
+        android:layout_width="256dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="128dp"
+        android:ems="10"
+        android:hint="Ingrese Descripcion"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_bdd"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crear_bdd"
+        app:layout_constraintStart_toStartOf="@+id/btn_crear_bdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="258dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ingrese id"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_bdd"
+        app:layout_constraintEnd_toEndOf="@+id/btn_crear_bdd"
+        app:layout_constraintStart_toStartOf="@+id/btn_crear_bdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <Button
+        android:id="@+id/btn_buscar_bdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btn_crear_bdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btn_actualizar_bdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btn_eliminar_bdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+</androidx.constraintlayout.widget.ConstraintLayout>

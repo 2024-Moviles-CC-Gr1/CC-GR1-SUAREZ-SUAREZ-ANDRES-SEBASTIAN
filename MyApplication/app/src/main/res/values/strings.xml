@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">2024ACCGR1GISO</string>
+    <string name="condition1">Esta es la condicion 1</string>
+    <string name="condition2">Esta es la condicion 2</string>
+    <string name="condicion3">This is the condition 3</string>
+    <string name="condicion4">This is the condition 4</string>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <string-array name="string_array_opciones">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
+</resources>
