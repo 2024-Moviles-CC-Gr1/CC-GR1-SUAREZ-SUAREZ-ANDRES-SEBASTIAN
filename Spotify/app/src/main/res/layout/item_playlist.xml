@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@color/spotify_black">
+
+    <ImageView
+        android:id="@+id/playlist_image"
+        android:layout_width="243dp"
+        android:layout_height="225dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/playlist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlist Name"
+        android:textAppearance="?attr/textAppearanceListItem"
+        style="@style/PlaylistNameText" />
+</LinearLayout>
